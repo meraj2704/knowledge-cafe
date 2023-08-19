@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(17, 17, 17, 0.15);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-headline {
+    color: #111;
+    font-family: Exo 2;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-left: 10px;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
