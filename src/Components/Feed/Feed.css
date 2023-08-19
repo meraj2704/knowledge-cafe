@@ -1,0 +1,8 @@
+.main-div{
+    display: grid;
+  grid-template-columns: 4fr,1fr;
+  grid-gap: 30px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -6,7 +6,7 @@ import './Post.css'
 const Post = (props) => {
     const { id, name, userImg, post, release, readTime, hasTags, postImg } = props.post;
     return (
-        <div className='post-container'>
+        <div className='post-container mt-8'>
             <img className='post-img' src={postImg} alt="" />
             <div>
                 <div className='user-div'>
