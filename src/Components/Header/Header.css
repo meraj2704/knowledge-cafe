@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px solid rgba(17, 17, 17, 0.15);
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header-headline {
     color: #111;

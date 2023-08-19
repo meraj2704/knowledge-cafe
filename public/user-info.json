@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Mr. Raju",
+        "userImg":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "post": "How to get your first job as a self-taught programmer",
+        "release":"Mar 14 (4 Days ago)",
+        "readTime":5,
+        "hasTags":"#beginners #programming",
+        "postImg" : "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "name": "Mr. Fake Man",
+        "userImg":"https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "post": "How to developed my career from beginners to advance.",
+        "release":"Mar 13 (5 Days ago)",
+        "readTime":7,
+        "hasTags":"#beginners #programming",
+        "postImg" : "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 3,
+        "name": "Mr. Iron Man",
+        "userImg":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "post": "The steps you need to follow for getting success.",
+        "release":"Mar 12 (6 Days ago)",
+        "readTime":8,
+        "hasTags":"#beginners #programming",
+        "postImg" : "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+        "id": 4,
+        "name": "Mr. Hulk",
+        "userImg":"https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "post": "Persistence is the key to your success.",
+        "release":"Mar 11 (7 Days ago)",
+        "readTime":4,
+        "hasTags":"#beginners #programming",
+        "postImg" : "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
