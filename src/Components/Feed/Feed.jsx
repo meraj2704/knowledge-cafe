@@ -8,13 +8,15 @@ const Feed = (props) => {
             .then(res => res.json())
             .then(data => setPost(data))
     }, [])
+    
     return (
         <div>
             {
-                posts.map(post => <Post
-                    key={post.id}
-                    post={post}
+                posts.map(poster => <Post
+                    key={poster.id}
+                    poster={poster}
                     time={props.time}
+                    handleHeadLine = {props.handleHeadLine}
                 ></Post>)
             }
         </div>
