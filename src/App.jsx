@@ -21,10 +21,10 @@ function App() {
   // console.log(handleHeadLine);
 
   return (
-    <>
+    <div className=''>
       <Header></Header>
       <div className='main-container flex flex-col md:grid gap-6 md:grid-cols-3 xl:grid xl:grid-cols-3 '>
-        <div className='md:col-span-2 xl:col-span-2'>
+        <div className='md:col-span-2 xl:col-span-2 '>
           <Feed
             time={time}
             handleHeadLine={handleHeadLine}
@@ -38,7 +38,7 @@ function App() {
         </div>
 
       </div>
-    </>
+    </div>
   )
 }
 
