@@ -5,6 +5,7 @@ import './Post.css'
 
 const Post = (props) => {
     const { id, name, userImg, post, release, readTime, hasTags, postImg } = props.post;
+    const time = props.time;
     return (
         <div className='post-container mt-8'>
             <img className='post-img' src={postImg} alt="" />
@@ -19,7 +20,7 @@ const Post = (props) => {
                 </div>
                 <h1 className='post-headline'>{post}</h1>
                 <p>{hasTags}</p>
-                <a href="/#" className='mark-read'>Mark as read</a>
+                <button onClick={()=>time(readTime)} className='mark-read'>Mark as read</button>
             </div>
         </div>
     );
